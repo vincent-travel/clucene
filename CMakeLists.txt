@@ -26,6 +26,7 @@ if(WIN32)
 endif(WIN32)
 
 
+set (lucene-root_SOURCE_DIR ${CMAKE_CURRENT_SOURCE_DIR})
 # include specific modules
 set(CMAKE_MODULE_PATH "${CMAKE_CURRENT_SOURCE_DIR}/cmake")
 

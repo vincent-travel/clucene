@@ -27,7 +27,7 @@ endif(WIN32)
 
 
 # include specific modules
-set(CMAKE_MODULE_PATH "${CMAKE_SOURCE_DIR}/cmake")
+set(CMAKE_MODULE_PATH "${CMAKE_CURRENT_SOURCE_DIR}/cmake")
 
 #define options...
 
